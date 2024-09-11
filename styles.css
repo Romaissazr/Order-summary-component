@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  hsl(225, 100%, 94%);
+    display: flex;
+  align-items: center;
+   justify-content: center;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+  
+}
+.img{
+ 
+   z-index: -999;
+ 
+
+}
+.container{
+   position: absolute;
+  z-index: 999;
+ display: flex;
+ flex-direction: column;
+  background:white;
+  width: 350px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+   top: 30px;
+   box-shadow: 0px 10px 10px hsla(245, 75%, 52%, 0.171); 
+}
+.hero{
+    height: 100%;
+    width: 100%;
+}
+.discrtion{
+    margin: 20px 50px;
+    text-align: center;
+}
+.discrtion h2{
+    margin-top: 10px;
+    font-weight: 900;
+}
+.discrtion p{
+    margin-top: 10px;
+  font-weight: 400;
+    color: #7e7e7e;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    background: hsl(225, 100%, 98%);
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin: 20px -30px;
+   
+}
+.column {
+   display: flex;
+   flex-direction: column;
+   margin-left: -70px;
+   margin-top: 5px;
+  
+
+}
+.cart img{
+    height: 35px;
+    margin-top: 3px;
+}
+.column p{
+    margin-top: 0px;
+}
+.cart a{
+    font-weight: 700;
+    margin-top: 14px;
+}
+.cart a:hover{
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.562);
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+ .discrtion .button{
+    background: hsl(245, 75%, 52%);
+   padding: 10px 60px;
+ margin:  0 -30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 0px 10px 10px hsla(245, 75%, 52%, 0.258); 
+    
+}
+.discrtion .button:hover{
+    background: hsla(245, 75%, 52%, 0.562);
+}
+.discrtion .btn{
+    text-decoration: none;
+    color: #7e7e7e;
+ font-weight: 800;
+}
